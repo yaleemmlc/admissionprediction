@@ -26,10 +26,9 @@ We provide the de-identified dataset and R scripts for the paper "Predicting hos
 
 * **build_final_topvars.R**: trains an XGBoost model (only using the top variables) using the optimized set of hyperparameters on all samples excluding the test set then outputs a test AUC with 95% CIs 
 
-* **build_boost_onlytriage.R**, **build_final_onlytriage.R**, **build_boost_onlyhx.R**, **build_final_onlyhx.R**: repeats the XGBoost training process for "Only Triage" variables and "Only History" variables. 
+* **build_boost_onlytriage.R**, **build_final_onlytriage.R**, **build_boost_onlyhx.R**, **build_final_onlyhx.R**, **build_keras_onlytriage.R**, **build_keras_final_onlytriage.R**, **build_keras_onlyhx.R**, **build_final_keras_onlyhx.R**, **build_final_lr_onlytriage.R**, **build_final_lr_onlyhx.R**: repeats the training process for "Only Triage" variables and "Only History" variables. The XGBoost training scripts should be run first to output the design matrix used for the DNN and LR training scripts.
 
-* **The DNN and LR models for the "Only Triage" and "Only History" variables are built in a similar manner, with slight modification to the earlier Keras scripts.**
-
+* **youdens.R**: uses Youden's Index to calculate the sensitivity/specificity/PPV/NPV of each model.
 
 
 
