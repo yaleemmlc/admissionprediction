@@ -3,6 +3,9 @@
 
 We provide the de-identified dataset and R scripts for the paper "Predicting hospital admission at emergency department triage using machine learning". All processing scripts in the *Scripts/R/* subdirectory take as input *.csv* files extracted from the enterprise data warehouse using SQL queries. The analysis scripts in the main directory take as input the de-identified dataset provided in this repository. The working directory should be set to the main directory with the analysis scripts. **All research using this dataset should cite the original paper.**
 
+[![DOI](https://zenodo.org/badge/128982821.svg)](https://zenodo.org/badge/latestdoi/128982821)
+
+
 ##### Dataset
 * **Results/5v_cleandf.RData**: A 560,486 x 972 R dataframe that contains the de-identified dataset used for the analysis portion of the study. Those wishing to explore the data outside R should export the dataframe into a csv file (~ 1.7 GB) using the *write_csv* function in the **readr** package. 
 
