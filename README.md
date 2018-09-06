@@ -1,7 +1,7 @@
 # Predicting hospital admission at emergency department triage using machine learning
 #### Woo Suk Hong, Adrian Haimovich, R. Andrew Taylor
 
-We provide the de-identified dataset and R scripts for the paper "Predicting hospital admission at emergency department triage using machine learning". All processing scripts in the *Scripts/R/* subdirectory take as input *.csv* files extracted from the enterprise data warehouse using SQL queries. The analysis scripts in the main directory take as input the de-identified dataset provided in this repository. The working directory should be set to the main directory with the analysis scripts. **All research using this dataset should cite the original paper.**
+We provide the de-identified dataset and R scripts for the paper "Predicting hospital admission at emergency department triage using machine learning". All processing scripts in the *Scripts/R/* subdirectory take as input *.csv* files extracted from the enterprise data warehouse using SQL queries. The analysis scripts in the main directory take as input the de-identified dataset provided in this repository. The working directory should be set to the main directory with the analysis scripts. **All research using this dataset should cite the original paper.** "Hong WS, Haimovich AD, Taylor RA (2018) Predicting hospital admission at emergency department triage using machine learning. PLoS ONE 13(7): e0201016." (https://doi.org/10.1371/journal.pone.0201016)
 
 [![DOI](https://zenodo.org/badge/128982821.svg)](https://zenodo.org/badge/latestdoi/128982821)
 
